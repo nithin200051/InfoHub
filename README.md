@@ -12,8 +12,8 @@ This Laravel project is a simple demonstration of creating and managing Users, D
     - **Users**:
         - `id`: Primary Key
         - `name`: User's name
-        - `fk_department`: Foreign Key referencing `departments`
-        - `fk_designation`: Foreign Key referencing `designations`
+        - `department_id`: Foreign Key referencing `departments`
+        - `designation_id`: Foreign Key referencing `designations`
         - `phone_number`: User's phone number
         - `created_at`: Timestamp of record creation
 
@@ -37,5 +37,4 @@ Follow the steps below to set up the project on your local machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/lilac-infotech-interview-task.git
-cd lilac-infotech-interview-task
+git clone https://github.com/nithin200051/InfoHub.git
