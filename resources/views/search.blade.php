@@ -58,7 +58,7 @@
 </head>
 <body>
   <div class="container text-center pt-5">
-    <h1 class="display-4 mb-4">InfoHub - Search Users</h1>
+    <h1 class="display-4 mb-4">InfoHub</h1>
     <div class="search_box mb-5">
       <input type="text" name="search" id="search" placeholder="Search by Name/Department/Designation">
     </div>
