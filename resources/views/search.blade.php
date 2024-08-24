@@ -67,10 +67,10 @@
       <div class="col-md-4 mb-4">
         <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <h5 class="card-title"><b>Name:</b> {{$user->name}}</h5>
-            <p class="card-text"><b>Designation:</b> {{$user->designation->name}}</p>
-            <p class="card-text"><b>Department:</b> {{$user->department->name}}</p>
-            <p class="card-text"><b>Phone:</b> {{$user->phone_number}}</p>
+            <h5 class="card-title"><b> {{$user->name}}</b></h5>
+            <p class="card-text">{{$user->designation->name}}</p>
+            <p class="card-text">{{$user->department->name}}</p>
+            <p class="card-text">{{$user->phone_number}}</p>
           </div>
         </div>
       </div>
