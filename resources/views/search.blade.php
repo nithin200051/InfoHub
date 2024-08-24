@@ -82,7 +82,11 @@
       $('#search').on('keyup', function(){
         var value = $(this).val().toLowerCase();
         $('.card').filter(function(){
-          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+          if($(this).text().toLowerCase().indexOf(value)>-1){
+            $(this).closest('.col-md-4').show();
+          } else {
+            $(this).closest('.col-md-4').hide();
+          }
         });
       });
     });
